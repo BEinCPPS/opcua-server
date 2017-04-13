@@ -1,0 +1,1 @@
+print( "\n\n\n***** CONFORMANCE UNIT 'Protocol TCP Binary UA Security' TEST SCRIPTS COMPLETE ******\n" );

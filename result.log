@@ -1,0 +1,253 @@
+2017-04-13T13:33:41.843Z - debug: ok->TestStation_1_1_state 1502
+2017-04-13T13:33:41.843Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:42.842Z - debug: ok->TestStation_1_1_state 1502
+2017-04-13T13:33:42.842Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:43.841Z - debug: ok->TestStation_1_1_state 104
+2017-04-13T13:33:43.841Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:44.841Z - debug: ok->TestStation_1_1_state 104
+2017-04-13T13:33:44.841Z - debug: ok->TestStation_1_1_statePayload  |N| | | |N| |-1| |A| 
+2017-04-13T13:33:45.841Z - debug: ok->TestStation_1_1_state 105
+2017-04-13T13:33:45.844Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:46.841Z - debug: ok->TestStation_1_1_state 105
+2017-04-13T13:33:46.841Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:47.841Z - debug: ok->TestStation_1_1_state 104
+2017-04-13T13:33:47.841Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:48.841Z - debug: ok->TestStation_1_1_state 104
+2017-04-13T13:33:48.841Z - debug: ok->TestStation_1_1_statePayload  |N| | | |N| |-1| |A| 
+2017-04-13T13:33:50.841Z - debug: ok->TestStation_1_1_state 1502
+2017-04-13T13:33:50.841Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:51.857Z - debug: ok->TestStation_1_1_state 1502
+2017-04-13T13:33:51.858Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:52.842Z - debug: ok->TestStation_1_1_state 104
+2017-04-13T13:33:52.842Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:53.842Z - debug: ok->TestStation_1_1_state 104
+2017-04-13T13:33:53.842Z - debug: ok->TestStation_1_1_statePayload  |N| | | |N| |-1| |A| 
+2017-04-13T13:33:54.842Z - debug: ok->TestStation_1_1_state 105
+2017-04-13T13:33:54.843Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:55.843Z - debug: ok->TestStation_1_1_state 105
+2017-04-13T13:33:55.844Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:56.841Z - debug: ok->TestStation_1_1_state 104
+2017-04-13T13:33:56.841Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:57.842Z - debug: ok->TestStation_1_1_state 104
+2017-04-13T13:33:57.842Z - debug: ok->TestStation_1_1_statePayload 111111111111|Y|dddd|851111111111| |Y|ui|-1| |A| 
+2017-04-13T13:33:58.841Z - debug: ok->TestStation_1_1_state 101
+2017-04-13T13:33:58.841Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:33:59.843Z - debug: ok->TestStation_1_1_state 101
+2017-04-13T13:33:59.843Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:34:00.842Z - debug: ok->TestStation_1_1_state 102
+2017-04-13T13:34:00.842Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:34:01.843Z - debug: ok->TestStation_1_1_state 102
+2017-04-13T13:34:01.843Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:34:02.841Z - debug: ok->TestStation_1_1_state 300
+2017-04-13T13:34:02.841Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:34:03.841Z - debug: ok->TestStation_1_1_state 300
+2017-04-13T13:34:03.841Z - debug: ok->TestStation_1_1_statePayload 111111111111|Y|dddd|851111111111|12NC di test|Y|ui|2|Test Acquisizione|A| 
+2017-04-13T13:34:03.842Z - debug: ok->TestStation_1_1serialNumber 111111111111
+2017-04-13T13:34:03.843Z - debug: ok->TestStation_1_1_12NC 851111111111
+2017-04-13T13:34:03.843Z - debug: ok->TestStation_1_1_serialNumber 111111111111
+2017-04-13T13:34:03.843Z - debug: ok->TestStation_1_1_12NC 851111111111
+2017-04-13T13:34:04.841Z - debug: ok->TestStation_1_1_state 1500
+2017-04-13T13:34:04.841Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:34:05.849Z - debug: ok->TestStation_1_1_state 1500
+2017-04-13T13:34:05.849Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:34:06.848Z - debug: ok->TestStation_1_1_state 400
+2017-04-13T13:34:06.848Z - debug: ok->TestStation_1_1_statePayload 
+2017-04-13T13:34:07.849Z - debug: ok->TestStation_1_1_state 400
+2017-04-13T13:34:07.849Z - debug: ok->TestStation_1_1_statePayload 111111111111|Y|dddd|851111111111|12NC di test|Y|ui|2|Test Acquisizione|A| 
+2017-04-13T13:34:08.849Z - debug: ok->TestStation_1_1_acknowledge 1
+2017-04-13T13:34:09.877Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:34:10.858Z - debug: ok->teststation:TestStation_1_1_measure2 228
+2017-04-13T13:34:11.850Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:34:12.851Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:34:13.852Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:34:14.851Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:34:15.849Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:34:16.849Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:34:17.857Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:34:18.850Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:34:19.850Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:34:20.852Z - debug: ok->teststation:TestStation_1_1_measure12 0
+2017-04-13T13:34:21.851Z - debug: ok->teststation:TestStation_1_1_measure13 0
+2017-04-13T13:34:22.851Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:34:23.848Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:34:24.849Z - debug: ok->teststation:TestStation_1_1_measure2 228
+2017-04-13T13:34:25.852Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:34:26.850Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:34:27.850Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:34:28.850Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:34:29.850Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:34:30.852Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:34:31.860Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:34:32.878Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:34:33.857Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:34:34.857Z - debug: ok->teststation:TestStation_1_1_measure12 0
+2017-04-13T13:34:35.857Z - debug: ok->teststation:TestStation_1_1_measure13 0
+2017-04-13T13:34:36.858Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:34:37.858Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:34:38.859Z - debug: ok->teststation:TestStation_1_1_measure2 228
+2017-04-13T13:34:39.859Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:34:40.859Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:34:41.859Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:34:42.858Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:34:43.858Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:34:44.861Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:34:45.868Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:34:46.869Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:34:47.873Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:34:48.876Z - debug: ok->teststation:TestStation_1_1_measure12 0
+2017-04-13T13:34:49.875Z - debug: ok->teststation:TestStation_1_1_measure13 0
+2017-04-13T13:34:50.880Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:34:51.887Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:34:52.874Z - debug: ok->teststation:TestStation_1_1_measure2 228
+2017-04-13T13:34:53.875Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:34:54.875Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:34:55.876Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:34:56.876Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:34:57.876Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:34:58.875Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:34:59.877Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:35:00.883Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:35:01.877Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:35:02.878Z - debug: ok->teststation:TestStation_1_1_measure12 0
+2017-04-13T13:35:03.876Z - debug: ok->teststation:TestStation_1_1_measure13 0
+2017-04-13T13:35:04.877Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:35:05.886Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:35:06.885Z - debug: ok->teststation:TestStation_1_1_measure2 227
+2017-04-13T13:35:07.885Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:35:08.885Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:35:09.885Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:35:10.886Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:35:11.885Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:35:12.885Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:35:13.885Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:35:14.887Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:35:15.886Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:35:16.887Z - debug: ok->teststation:TestStation_1_1_measure12 2
+2017-04-13T13:35:17.886Z - debug: ok->teststation:TestStation_1_1_measure13 5
+2017-04-13T13:35:18.886Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:35:19.886Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:35:20.886Z - debug: ok->teststation:TestStation_1_1_measure2 227
+2017-04-13T13:35:21.886Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:35:22.886Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:35:23.886Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:35:24.886Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:35:25.886Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:35:26.887Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:35:27.886Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:35:28.886Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:35:29.886Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:35:30.886Z - debug: ok->teststation:TestStation_1_1_measure12 2
+2017-04-13T13:35:31.887Z - debug: ok->teststation:TestStation_1_1_measure13 5
+2017-04-13T13:35:32.887Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:35:33.887Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:35:34.888Z - debug: ok->teststation:TestStation_1_1_measure2 227
+2017-04-13T13:35:35.887Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:35:36.888Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:35:37.888Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:35:38.888Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:35:39.888Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:35:40.894Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:35:41.888Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:35:42.888Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:35:43.888Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:35:44.888Z - debug: ok->teststation:TestStation_1_1_measure12 5
+2017-04-13T13:35:45.888Z - debug: ok->teststation:TestStation_1_1_measure13 2
+2017-04-13T13:35:46.888Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:35:47.888Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:35:48.888Z - debug: ok->teststation:TestStation_1_1_measure2 227
+2017-04-13T13:35:49.891Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:35:50.924Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:35:51.924Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:35:52.923Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:35:53.924Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:35:54.924Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:35:55.924Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:35:56.926Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:35:57.927Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:35:58.928Z - debug: ok->teststation:TestStation_1_1_measure12 5
+2017-04-13T13:35:59.927Z - debug: ok->teststation:TestStation_1_1_measure13 7
+2017-04-13T13:36:00.927Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:36:01.927Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:36:02.930Z - debug: ok->teststation:TestStation_1_1_measure2 227
+2017-04-13T13:36:03.929Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:36:04.929Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:36:05.929Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:36:06.930Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:36:07.929Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:36:08.929Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:36:09.930Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:36:10.929Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:36:11.929Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:36:12.930Z - debug: ok->teststation:TestStation_1_1_measure12 5
+2017-04-13T13:36:13.929Z - debug: ok->teststation:TestStation_1_1_measure13 12
+2017-04-13T13:36:14.933Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:36:15.929Z - debug: ok->TestStation_1_1_acknowledge 2
+2017-04-13T13:36:16.929Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:36:17.932Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:36:18.930Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:36:19.954Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:36:20.930Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:36:21.934Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:36:22.931Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:36:23.931Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:36:24.931Z - debug: ok->teststation:TestStation_1_1_measure12 0
+2017-04-13T13:36:25.931Z - debug: ok->teststation:TestStation_1_1_measure13 0
+2017-04-13T13:36:26.944Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:36:27.935Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:36:28.934Z - debug: ok->teststation:TestStation_1_1_measure2 227
+2017-04-13T13:36:29.934Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:36:30.935Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:36:31.936Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:36:32.938Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:36:33.937Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:36:34.940Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:36:35.939Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:36:36.952Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:36:37.937Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:36:38.938Z - debug: ok->teststation:TestStation_1_1_measure12 0
+2017-04-13T13:36:39.937Z - debug: ok->teststation:TestStation_1_1_measure13 0
+2017-04-13T13:36:40.937Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:36:41.937Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:36:42.937Z - debug: ok->teststation:TestStation_1_1_measure2 228
+2017-04-13T13:36:43.938Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:36:44.937Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:36:45.937Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:36:46.939Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:36:47.937Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:36:48.940Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:36:49.941Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:36:50.938Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:36:51.938Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:36:52.946Z - debug: ok->teststation:TestStation_1_1_measure12 0
+2017-04-13T13:36:53.944Z - debug: ok->teststation:TestStation_1_1_measure13 0
+2017-04-13T13:36:54.944Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:36:55.944Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:36:56.963Z - debug: ok->teststation:TestStation_1_1_measure2 228
+2017-04-13T13:36:57.963Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:36:58.968Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:36:59.962Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:37:00.962Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:37:01.962Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:37:02.962Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:37:03.967Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:37:04.964Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:37:05.962Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:37:06.962Z - debug: ok->teststation:TestStation_1_1_measure12 0
+2017-04-13T13:37:07.962Z - debug: ok->teststation:TestStation_1_1_measure13 0
+2017-04-13T13:37:08.962Z - debug: ok->teststation:TestStation_1_1_measure14 0
+2017-04-13T13:37:09.962Z - debug: ok->teststation:TestStation_1_1_measure1 0
+2017-04-13T13:37:10.963Z - debug: ok->teststation:TestStation_1_1_measure2 228
+2017-04-13T13:37:11.964Z - debug: ok->teststation:TestStation_1_1_measure3 0
+2017-04-13T13:37:12.963Z - debug: ok->teststation:TestStation_1_1_measure4 100
+2017-04-13T13:37:13.965Z - debug: ok->teststation:TestStation_1_1_measure5 0
+2017-04-13T13:37:14.969Z - debug: ok->teststation:TestStation_1_1_measure6 32767
+2017-04-13T13:37:15.965Z - debug: ok->teststation:TestStation_1_1_measure7 32767
+2017-04-13T13:37:16.965Z - debug: ok->teststation:TestStation_1_1_measure8 32767
+2017-04-13T13:37:17.967Z - debug: ok->teststation:TestStation_1_1_measure9 32767
+2017-04-13T13:37:18.969Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:37:50.332Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:37:50.443Z - debug: ok->teststation:TestStation_1_1_measure12 0
+2017-04-13T13:37:51.330Z - debug: ok->teststation:TestStation_1_1_measure10 32767
+2017-04-13T13:37:52.330Z - debug: ok->teststation:TestStation_1_1_measure11 32767
+2017-04-13T13:37:53.330Z - debug: ok->teststation:TestStation_1_1_measure12 0
+2017-04-13T13:37:54.330Z - debug: ok->teststation:TestStation_1_1_measure13 0
