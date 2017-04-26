@@ -14,10 +14,10 @@ var AddressSpaceNotifier = (function () {
   }
     // TODO
   var notifyChange = function (model, changeType) {
-    logger.info('Change detected :'.bold.red + '' + changeType)
+    logger.info('Change detected :'.bold.green + '' + changeType)
     var _hashVal = calculateHash(changeType) // TODO
     logger.info('Old hash calculated: ' + hashVal + ''.bold.cyan)
-    logger.info('New hash calculated: ' + _hashVal + ''.bold.red)
+    logger.info('New hash calculated: ' + _hashVal + ''.bold.green)
     if (_hashVal === hashVal) return false
     hashVal = _hashVal
     return true

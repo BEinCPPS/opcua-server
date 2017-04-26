@@ -149,7 +149,7 @@ var ExecutorMessageManager = (function () {
       var measureObj = addressSpaceManager.getMeasureMap().get(measureIdentifier)
       var dataValue = measureObj.value
       var retVal = setNumberToMeasure(measureId, dataValue, messageArray[4])
-      logger.info('Measure '.bold.red + measureIdentifier + ' feeded  with value ' + messageArray[4].bold.cyan)
+      logger.info('Measure '.bold.yellow + measureIdentifier + ' feeded  with value ' + messageArray[4].bold.cyan)
       logger.debug('ok->teststation:TestStation_' + idMachine + '_' + idBox + '_measure' + measureId, messageArray[4], 'result')
       if (retVal) {
         setTimestampToMeasure(measureId, dataValue, messageArray[5])
@@ -165,7 +165,7 @@ var ExecutorMessageManager = (function () {
       if (addressSpaceManager.getStateObj()) {
         dataValue = addressSpaceManager.getStateObj().value
         var retVal = setStringToMeasure(stateId, dataValue, stateId)
-        logger.info('State '.bold.red + stateId + ' feeded  with value ' + messageArray[4].bold.cyan)
+        logger.info('State '.bold.yellow + stateId + ' feeded  with value ' + messageArray[4].bold.cyan)
         logger.debug('ok->TestStation_' + idMachine + '_' + idBox + '_state', messageArray[3], 'result')
                 // Set payload in INNER  property for State
         setStringToMeasure(stateId, addressSpaceManager.getStateObj().propertyValues[0], messageArray[4])

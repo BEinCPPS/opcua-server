@@ -92,9 +92,9 @@ var serverOptions = {
   },
   buildInfo: {
     productName: 'OPCUA-Server',
-    softwareVersion: '0.0.1',
+    softwareVersion: '1.0.0',
     buildNumber: '00001',
-    buildDate: new Date(2017, 3, 30)
+    buildDate: new Date(2017, 4, 30)
   },
   serverCapabilities: {
     operationLimits: {

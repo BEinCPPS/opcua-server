@@ -1,4 +1,4 @@
-2017-04-26T09:06:45.011Z - info: 
+2017-04-26T09:29:34.821Z - info: 
 /$$$$$$   /$$$$$$   /$$$$$$$ /$$   /$$  /$$$$$$           /$$$$$$$  /$$$$$$   /$$$$$$  /$$    /$$ /$$$$$$   /$$$$$$
 /$$__  $$ /$$__  $$ /$$_____/| $$  | $$ |____  $$ /$$$$$$ /$$_____/ /$$__  $$ /$$__  $$|  $$  /$$//$$__  $$ /$$__  $$
 | $$   $$| $$   $$| $$      | $$  | $$  /$$$$$$$|______/|  $$$$$$ | $$$$$$$$| $$  __/   $$/$$/| $$$$$$$$| $$  __/
@@ -9,10 +9,87 @@ ______/ | $$____/  _______/ ______/  _______/        |_______/  _______/|__/    
          | $$                                                                                                  
         |__/                                                                                                   
 
-2017-04-26T09:06:46.040Z - info: Event notifier object added to the Address Space
-2017-04-26T09:06:46.042Z - info: [33m[1mSOCKET COMMNICATION (EXECUTOR-->SERVER)  listening on [22m[39m127.0.0.1:7001
-2017-04-26T09:07:18.533Z - info: [1m[31m Received server interruption from user [39m[22m
-2017-04-26T09:07:18.533Z - info: [1m[31m shutting down ...[39m[22m
-2017-04-26T09:07:18.535Z - info: [33mDestroying socket server...[39m
-2017-04-26T09:07:18.535Z - info: [33mSocket sever destroyed[39m
-2017-04-26T09:07:19.554Z - info: [1m[31m shutting down completed [39m[22m
+2017-04-26T09:29:35.977Z - info: Event notifier object added to the Address Space
+2017-04-26T09:29:35.979Z - info: [33m[1mSOCKET COMMNICATION (EXECUTOR-->SERVER)  listening on [22m[39m127.0.0.1:7001
+2017-04-26T09:29:52.683Z - info: CONNECTED: 127.0.0.1:58116
+2017-04-26T09:29:53.694Z - info: [33m[1mCreating Object with standard configuration: [22m[39m
+2017-04-26T09:29:53.696Z - info: [32m[1mChange detected :[22m[39mAdded Testation: TestStation1_1
+2017-04-26T09:29:53.699Z - info: Old hash calculated: null[36m[1m[22m[39m
+2017-04-26T09:29:53.699Z - info: New hash calculated: 2d4bf87fed267603a4784c89f26aaaa64dd83a4ed2241815c616d3be94b09443[32m[1m[22m[39m
+2017-04-26T09:29:53.699Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T09:29:53.700Z - info: [36mAdditionalInfo [39mTestStationAddInfo[36m reached :-)[39m
+2017-04-26T09:29:54.693Z - info: [33m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:29:54.694Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:29:55.693Z - info: [33m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:29:55.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:29:56.693Z - info: [33m[1mState [22m[39m104 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:29:56.694Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:29:57.693Z - info: [33m[1mState [22m[39m104 feeded  with value [36m[1m |N| | | |N| |-1| |A| [22m[39m
+2017-04-26T09:29:57.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:29:58.693Z - info: [33m[1mState [22m[39m105 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:29:58.694Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:29:59.693Z - info: [33m[1mState [22m[39m105 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:29:59.694Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:00.693Z - info: [33m[1mState [22m[39m104 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:00.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:01.693Z - info: [33m[1mState [22m[39m104 feeded  with value [36m[1m |N| | | |N| |-1| |A| [22m[39m
+2017-04-26T09:30:01.694Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:02.693Z - info: [33m[1mCreating Object with standard configuration: [22m[39m
+2017-04-26T09:30:02.693Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T09:30:02.693Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T09:30:02.694Z - info: [36mAdditionalInfo [39mTestStationAddInfo[36m reached :-)[39m
+2017-04-26T09:30:03.693Z - info: [33m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:03.694Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:04.693Z - info: [33m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:04.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:05.693Z - info: [33m[1mState [22m[39m104 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:05.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:06.693Z - info: [33m[1mState [22m[39m104 feeded  with value [36m[1m |N| | | |N| |-1| |A| [22m[39m
+2017-04-26T09:30:06.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:07.693Z - info: [33m[1mState [22m[39m105 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:07.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:08.693Z - info: [33m[1mState [22m[39m105 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:08.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:09.693Z - info: [33m[1mState [22m[39m104 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:09.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:10.693Z - info: [33m[1mState [22m[39m104 feeded  with value [36m[1m111111111111|Y|dddd|851111111111| |Y|ui|-1| |A| [22m[39m
+2017-04-26T09:30:10.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:11.693Z - info: [33m[1mState [22m[39m101 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:11.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:12.693Z - info: [33m[1mState [22m[39m101 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:12.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:13.693Z - info: [33m[1mState [22m[39m102 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:13.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:14.693Z - info: [33m[1mState [22m[39m102 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:14.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:15.693Z - info: [33m[1mState [22m[39m300 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:15.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:16.693Z - info: [33m[1mState [22m[39m300 feeded  with value [36m[1m111111111111|Y|dddd|851111111111|12NC di test|Y|ui|2|Test Acquisizione|A| [22m[39m
+2017-04-26T09:30:16.693Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:16.694Z - info: [36mSerialNumber [39mSerialNumber[36m reached :-)[39m
+2017-04-26T09:30:16.694Z - info: [36m12NC [39m12NC[36m reached :-)[39m
+2017-04-26T09:30:17.693Z - info: [33m[1mState [22m[39m1500 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:17.695Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:18.080Z - info: [1m[31m Received server interruption from user [39m[22m
+2017-04-26T09:30:18.080Z - info: [1m[31m shutting down ...[39m[22m
+2017-04-26T09:30:18.080Z - info: [33mDestroying socket server...[39m
+2017-04-26T09:30:18.080Z - info: [33mSocket sever destroyed[39m
+2017-04-26T09:30:18.267Z - info: [1m[31m Received server interruption from user [39m[22m
+2017-04-26T09:30:18.267Z - info: [1m[31m shutting down ...[39m[22m
+2017-04-26T09:30:18.267Z - info: [33mDestroying socket server...[39m
+2017-04-26T09:30:18.267Z - info: [33mSocket sever destroyed[39m
+2017-04-26T09:30:18.453Z - info: [1m[31m Received server interruption from user [39m[22m
+2017-04-26T09:30:18.453Z - info: [1m[31m shutting down ...[39m[22m
+2017-04-26T09:30:18.453Z - info: [33mDestroying socket server...[39m
+2017-04-26T09:30:18.453Z - info: [33mSocket sever destroyed[39m
+2017-04-26T09:30:18.615Z - info: [1m[31m Received server interruption from user [39m[22m
+2017-04-26T09:30:18.615Z - info: [1m[31m shutting down ...[39m[22m
+2017-04-26T09:30:18.618Z - info: [33mDestroying socket server...[39m
+2017-04-26T09:30:18.618Z - info: [33mSocket sever destroyed[39m
+2017-04-26T09:30:18.693Z - info: [33m[1mState [22m[39m1500 feeded  with value [36m[1m[22m[39m
+2017-04-26T09:30:18.694Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T09:30:18.803Z - info: [1m[31m Received server interruption from user [39m[22m
+2017-04-26T09:30:18.803Z - info: [1m[31m shutting down ...[39m[22m
+2017-04-26T09:30:18.804Z - info: [33mDestroying socket server...[39m
+2017-04-26T09:30:18.804Z - info: [33mSocket sever destroyed[39m
+2017-04-26T09:30:19.101Z - info: [1m[31m shutting down completed [39m[22m
