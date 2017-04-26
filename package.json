@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Antonio Scatoloni (antonio.scatoloni@eng.it)",
+  "author": "Antonio Scatoloni Engineering Ingegneria Informatica (antonio.scatoloni@eng.it)",
   "license": "ASL",
   "dependencies": {
     "async": "^2.0.0-rc.3",
