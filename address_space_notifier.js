@@ -8,6 +8,7 @@ var AddressSpaceNotifier = (function () {
   var reset = function () {
     hashVal = null
   }
+
   var init = function () {
 
   }
@@ -31,6 +32,7 @@ var AddressSpaceNotifier = (function () {
   }
   var sendCloseEvent = function () {
     hashVal = 'TERMINATE'
+    logger.info('TERMINATE event reached')
   }
 
   var getHash = function () {

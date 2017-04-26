@@ -130,9 +130,10 @@ server.on('post_initialize', function () {
       callback()
     }
   ], function (err) {
-    if (!err)
-            // connectClientSocket();
-          { connectServerSocket() }
+    if (!err) {
+      // connectClientSocket();
+      connectServerSocket()
+    }
   })
 })
 function connectServerSocket () {
@@ -157,8 +158,9 @@ function connectServerSocket () {
             // Add a 'close' event handler to this instance of socket
       sock.on('close', function (data) {
         console.log('CLOSED: ' + sock.remoteAddress + ' ' + sock.remotePort)
-        // addressSpaceManager.removeAllTestStations()
-        // executorMessageManager.feedEventNotifierHash()
+        addressSpaceManager.removeAllTestStations()
+        addressSpaceNotifier.sendCloseEvent()
+        executorMessageManager.feedEventNotifierHash()
       })
     })
     socketServer.listen(portSocket, config.host)

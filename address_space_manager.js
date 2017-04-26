@@ -41,7 +41,7 @@ var AddressSpaceManager = (function () {
     buildState()
     buildAcknowledge()
     buildTestStationAddInfo()
-    addEventNotifierInstance()
+
     buildSerialNumber()
     build12NC()
   }
@@ -49,19 +49,23 @@ var AddressSpaceManager = (function () {
   var addTypes = function () {
     var types = config.addressSpaceTypes
     for (var i in types) {
-      var type = addressSpace.addVariableType({
-        browseName: types[i].name
-      })
-      typeMap.set(types[i].name, type)
+      if (!typeMap.has(types[i].name)) {
+        var type = addressSpace.addVariableType({
+          browseName: types[i].name
+        })
+        typeMap.set(types[i].name, type)
+      }
     }
-    testGenericType = addressSpace.addVariableType({
-      browseName: 'TestGenericType'
-    })
+    if (testGenericType === null) {
+      testGenericType = addressSpace.addVariableType({
+        browseName: 'TestGenericType'
+      })
+    }
   }
     // TODO Creare in modo dinamico una sottovariabile per gestire il payload degli stati
     // e l'indirizzo IP delle info
   var createVariable = function (object, dataValue, namePrefix) {
-    return addressSpace.addVariable({
+    var variableObj = {
       browseName: namePrefix + object.name,
       dataType: 'BaseDataType',
       typeDefinition: typeMap.get(object.type)
@@ -72,7 +76,11 @@ var AddressSpaceManager = (function () {
           return dataValue
         }
       }
-    })
+    }
+    if (typeof object.nodeId !== 'undefined' && object.nodeId !== null) {
+      variableObj.nodeId = object.nodeId
+    }
+    return addressSpace.addVariable(variableObj)
   }
 
   var createProperty = function (name, dataValue) {
@@ -228,6 +236,7 @@ var AddressSpaceManager = (function () {
   var addEventNotifierInstance = function () {
     var dataValue = createVariableDataValue()
     var hash = config.addressSpaceEventNotifier
+    hash.nodeId = 'ns=3;s=test_station_event_hash'
     var variable = createVariable(hash, dataValue, '')
     eventNotifierHashObj = {
       variable: variable,
@@ -238,9 +247,10 @@ var AddressSpaceManager = (function () {
       var eventNotifierHashInstance = addressSpace.addObject({
         organizedBy: addressSpace.rootFolder.objects,
         browseName: 'TestStationEventNotifier',
+        nodeId: 'ns=2;s=test_station_event',
         typeDefinition: testGenericType.nodeId
       })
-      referenceNodeToVariables(mySpace, [eventNotifierHashInstance])
+      // referenceNodeToVariables(mySpace, [eventNotifierHashInstance])
       referenceNodeToVariables(eventNotifierHashInstance, [eventNotifierHashObj.variable])
       logger.info('Event notifier object added to the Address Space')
     } catch (error) {
@@ -277,12 +287,27 @@ var AddressSpaceManager = (function () {
   }
 
   var removeAllTestStations = function () {
-    var keys = testStationInstanceMap.keys()
+    try {
+      addressSpace.deleteNode(mySpace)
+      var rootFolder = addressSpace.findNode('RootFolder')
+      mySpace = addressSpace.addFolder(rootFolder.objects, {
+        nodeId: 'ns=1;s=main_folder',
+        browseName: 'TestStationFolder'
+      })
+      buildAddressSpace()
+      testStationInstanceMap.clear()
+    } catch (error) {
+      logger.error('Error removing Address Space: ' + error.bold.red)
+    }
+
+  /*  var keys = testStationInstanceMap.keys()
     for (var i in keys) {
       var identifier = keys[i]
       removeTestStationInstance(identifier)
     }
-    addressSpaceNotifier.sendCloseEvent()
+    // Delete the folder after deleting all nodes
+    */
+   // addressSpaceNotifier.sendCloseEvent()
   }
 
   var getTestStationInstance = function (idMachine, idBox) {
@@ -352,12 +377,14 @@ var AddressSpaceManager = (function () {
     mySpace = null
     testStationInstanceMap = new HashMap()
     measureMap = new HashMap()
+    typeMap = new HashMap()
     stateObj = {}
     acknowledgeObj = {}
     serialNumberObj = {}
     _12NCObj = {}
     methodMap = new HashMap()
     addressSpaceNotifier = null
+    testGenericType = null
   }
 
   var init = function (addressSpaceNotifier_, serverEngine_) {
@@ -377,6 +404,7 @@ var AddressSpaceManager = (function () {
       browseName: 'TestStationFolder'
     })
     buildAddressSpace()
+    addEventNotifierInstance()
         /* view.addReference({
               referenceType: "Organizes",
               nodeId: node.nodeId

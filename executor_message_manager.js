@@ -1,7 +1,5 @@
 'use strict'
 var HashMap = require('hashmap')
-// var addressSpaceManager = require('./address_space_manager.js')
-// var addressSpaceNotifier = require('./address_space_notifier.js')
 var logger = require('./logger.js')
 var config = require('./config')
 var opcua = require('node-opcua')
@@ -32,7 +30,6 @@ var ExecutorMessageManager = (function () {
       millisecs = value.substring(value.length - 3)
       value = value.substring(0, value.length - 3)
     }
-
     var date = new Date(value.replace(
             /^(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)$/,
             '$4:$5:$6 $2/$3/$1'
@@ -83,28 +80,6 @@ var ExecutorMessageManager = (function () {
       } catch (error) {}
     }
   } // end extract
-
-  /*
-  var buildData = function (message) {
-    console.log('Message to build arrived ' + message)
-    var dataStr = message + ''
-    if (dataStr) {
-      try {
-        var button = buttonsMap.get(dataStr)
-        if (!button) return null
-        return '4' + config.executorDataSeparator + button.id
-      } catch (error) {
-        return null
-      }
-    }
-  }  */
-  // end extract
-
-  /* var extractMeasureConfiguration = function (messageConfig) {
-    if (!messageConfig) return 1 // default Config Generic
-    messageConfig = replaceLineBreak(messageConfig)
-    return Number(messageConfig)
-  } */
 
   var connectSocket = function () {
     console.log('Socket Connecting....'.bold.cyan)
@@ -176,15 +151,6 @@ var ExecutorMessageManager = (function () {
       var retVal = setNumberToMeasure(measureId, dataValue, messageArray[4])
       logger.info('Measure '.bold.red + measureIdentifier + ' feeded  with value ' + messageArray[4].bold.cyan)
       logger.debug('ok->teststation:TestStation_' + idMachine + '_' + idBox + '_measure' + measureId, messageArray[4], 'result')
-      /* if (typeof serialNumber !== 'undefined' && serialNumber != null && serialNumber) {
-        setStringToMeasure(measureId, measureObj.propertyValues[0], serialNumber)
-        logger.info('SerialNumber set to: ' + serialNumber.bold.cyan)
-      }
-      if (typeof _12NC !== 'undefined' && _12NC != null && _12NC) {
-        setStringToMeasure(measureId, measureObj.propertyValues[1], _12NC)
-        logger.info('12NC set to: ' + _12NC.bold.cyan)
-      }
-      */
       if (retVal) {
         setTimestampToMeasure(measureId, dataValue, messageArray[5])
       }
@@ -247,19 +213,6 @@ var ExecutorMessageManager = (function () {
       logger.error('Error encountered in feeding acknowledge: '.bold.red, error)
     }
   }
-/*
-  var feedAdditionalInfoActive = function (active) {
-    try {
-      // var dataValue = null
-      if (addressSpaceManager.getTestStationAddInfoObj()) {
-        setStringToMeasure('', addressSpaceManager.getTestStationAddInfoObj().propertyValues[1], active)
-      }
-    } catch (error) {
-      console.log('Error encountered in feeding station info: '.bold.red, error)
-    }
-  }
-  */
-
   var feedAdditionalInfo = function (ipAddress, description) {
     try {
       var dataValue = null

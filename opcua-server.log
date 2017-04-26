@@ -1,4 +1,4 @@
-2017-04-13T13:32:52.236Z - info: 
+2017-04-26T08:57:47.704Z - info: 
 /$$$$$$   /$$$$$$   /$$$$$$$ /$$   /$$  /$$$$$$           /$$$$$$$  /$$$$$$   /$$$$$$  /$$    /$$ /$$$$$$   /$$$$$$
 /$$__  $$ /$$__  $$ /$$_____/| $$  | $$ |____  $$ /$$$$$$ /$$_____/ /$$__  $$ /$$__  $$|  $$  /$$//$$__  $$ /$$__  $$
 | $$   $$| $$   $$| $$      | $$  | $$  /$$$$$$$|______/|  $$$$$$ | $$$$$$$$| $$  __/   $$/$$/| $$$$$$$$| $$  __/
@@ -20,356 +20,238 @@ ______/ | $$____/  _______/ ______/  _______/        |_______/  _______/|__/    
                |  $$$$$$/                                                                                      
                 ______/                                                                                       
 
-2017-04-13T13:32:54.369Z - info: Event notifier object added to the Address Space
-2017-04-13T13:32:54.374Z - info: [33m[1mSOCKET COMMNICATION (EXECUTOR-->SERVER)  listening on [22m[39m127.0.0.1:7001
-2017-04-13T13:33:39.829Z - info: CONNECTED: 127.0.0.1:56839
-2017-04-13T13:33:40.846Z - info: [33m[1mCreating Object with standard configuration: [22m[39m
-2017-04-13T13:33:40.851Z - info: [31m[1mChange detected :[22m[39mAdded Testation: TestStation1_1
-2017-04-13T13:33:40.859Z - info: Old hash calculated: null[36m[1m[22m[39m
-2017-04-13T13:33:40.859Z - info: New hash calculated: 2d4bf87fed267603a4784c89f26aaaa64dd83a4ed2241815c616d3be94b09443[31m[1m[22m[39m
-2017-04-13T13:33:40.859Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:33:40.860Z - info: [36mAdditionalInfo [39mTestStationAddInfo[36m reached :-)[39m
-2017-04-13T13:33:41.842Z - info: [31m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:41.843Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:42.841Z - info: [31m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:42.842Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:43.841Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:43.841Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:44.841Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m |N| | | |N| |-1| |A| [22m[39m
-2017-04-13T13:33:44.841Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:45.841Z - info: [31m[1mState [22m[39m105 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:45.844Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:46.841Z - info: [31m[1mState [22m[39m105 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:46.842Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:47.841Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:47.841Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:48.841Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m |N| | | |N| |-1| |A| [22m[39m
-2017-04-13T13:33:48.842Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:49.842Z - info: [33m[1mCreating Object with standard configuration: [22m[39m
-2017-04-13T13:33:49.844Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:33:49.846Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:33:49.846Z - info: [36mAdditionalInfo [39mTestStationAddInfo[36m reached :-)[39m
-2017-04-13T13:33:50.841Z - info: [31m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:50.842Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:51.856Z - info: [31m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:51.858Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:52.841Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:52.842Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:53.842Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m |N| | | |N| |-1| |A| [22m[39m
-2017-04-13T13:33:53.842Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:54.841Z - info: [31m[1mState [22m[39m105 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:54.843Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:55.842Z - info: [31m[1mState [22m[39m105 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:55.844Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:56.841Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:56.841Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:57.842Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m111111111111|Y|dddd|851111111111| |Y|ui|-1| |A| [22m[39m
-2017-04-13T13:33:57.842Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:58.841Z - info: [31m[1mState [22m[39m101 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:58.841Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:33:59.842Z - info: [31m[1mState [22m[39m101 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:33:59.843Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:34:00.841Z - info: [31m[1mState [22m[39m102 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:34:00.842Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:34:01.842Z - info: [31m[1mState [22m[39m102 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:34:01.843Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:34:02.841Z - info: [31m[1mState [22m[39m300 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:34:02.842Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:34:03.841Z - info: [31m[1mState [22m[39m300 feeded  with value [36m[1m111111111111|Y|dddd|851111111111|12NC di test|Y|ui|2|Test Acquisizione|A| [22m[39m
-2017-04-13T13:34:03.841Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:34:03.842Z - info: [36mSerialNumber [39mSerialNumber[36m reached :-)[39m
-2017-04-13T13:34:03.843Z - info: [36m12NC [39m12NC[36m reached :-)[39m
-2017-04-13T13:34:04.841Z - info: [31m[1mState [22m[39m1500 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:34:04.841Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:34:05.848Z - info: [31m[1mState [22m[39m1500 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:34:05.852Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:34:06.848Z - info: [31m[1mState [22m[39m400 feeded  with value [36m[1m[22m[39m
-2017-04-13T13:34:06.849Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:34:07.849Z - info: [31m[1mState [22m[39m400 feeded  with value [36m[1m111111111111|Y|dddd|851111111111|12NC di test|Y|ui|2|Test Acquisizione|A| [22m[39m
-2017-04-13T13:34:07.850Z - info: [36mState [39mState[36m reached :-)[39m
-2017-04-13T13:34:08.849Z - info: [36mAck [39mAcknowledge[36m reached :-)[39m
-2017-04-13T13:34:09.866Z - info: Added new measure: 1_1_1
-2017-04-13T13:34:09.866Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_1
-2017-04-13T13:34:09.873Z - info: Old hash calculated: 2d4bf87fed267603a4784c89f26aaaa64dd83a4ed2241815c616d3be94b09443[36m[1m[22m[39m
-2017-04-13T13:34:09.873Z - info: New hash calculated: 9eaa6feea42c2dc5c102f6ee1e84e207b8ab3b09ab7d697ca7242f66bb3eb317[31m[1m[22m[39m
-2017-04-13T13:34:09.873Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:09.877Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:09.877Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:10.853Z - info: Added new measure: 1_1_2
-2017-04-13T13:34:10.855Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_2
-2017-04-13T13:34:10.857Z - info: Old hash calculated: 9eaa6feea42c2dc5c102f6ee1e84e207b8ab3b09ab7d697ca7242f66bb3eb317[36m[1m[22m[39m
-2017-04-13T13:34:10.857Z - info: New hash calculated: d0545581d3613f2d3b2b93c71aa3d8e1f769e3b48256b53d581f317395380890[31m[1m[22m[39m
-2017-04-13T13:34:10.857Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:10.858Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:10.858Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m228[22m[39m
-2017-04-13T13:34:11.849Z - info: Added new measure: 1_1_3
-2017-04-13T13:34:11.849Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_3
-2017-04-13T13:34:11.850Z - info: Old hash calculated: d0545581d3613f2d3b2b93c71aa3d8e1f769e3b48256b53d581f317395380890[36m[1m[22m[39m
-2017-04-13T13:34:11.850Z - info: New hash calculated: e880a7247752d7598a45d955b271bd2b98c83c1a6bd24f5e66f94367aae0b675[31m[1m[22m[39m
-2017-04-13T13:34:11.850Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:11.850Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:11.850Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:12.850Z - info: Added new measure: 1_1_4
-2017-04-13T13:34:12.850Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_4
-2017-04-13T13:34:12.850Z - info: Old hash calculated: e880a7247752d7598a45d955b271bd2b98c83c1a6bd24f5e66f94367aae0b675[36m[1m[22m[39m
-2017-04-13T13:34:12.850Z - info: New hash calculated: ea3f91541dc6ff1ac2e705b961c0cac2806a278014ba4da25995b8ad9056d3fd[31m[1m[22m[39m
-2017-04-13T13:34:12.850Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:12.850Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:12.851Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:34:13.850Z - info: Added new measure: 1_1_5
-2017-04-13T13:34:13.850Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_5
-2017-04-13T13:34:13.851Z - info: Old hash calculated: ea3f91541dc6ff1ac2e705b961c0cac2806a278014ba4da25995b8ad9056d3fd[36m[1m[22m[39m
-2017-04-13T13:34:13.851Z - info: New hash calculated: 264e12986e3dbdbbbf440e2c10cbeed5a3a3c4f56598039bb498e395ef4f272e[31m[1m[22m[39m
-2017-04-13T13:34:13.851Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:13.851Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:13.852Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:14.850Z - info: Added new measure: 1_1_6
-2017-04-13T13:34:14.850Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_6
-2017-04-13T13:34:14.851Z - info: Old hash calculated: 264e12986e3dbdbbbf440e2c10cbeed5a3a3c4f56598039bb498e395ef4f272e[36m[1m[22m[39m
-2017-04-13T13:34:14.851Z - info: New hash calculated: 322a568b90d3d3c1a6297a00fc9d1c8239a22193f99b38500a8d4e9b01db6763[31m[1m[22m[39m
-2017-04-13T13:34:14.851Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:14.851Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:14.851Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:15.849Z - info: Added new measure: 1_1_7
-2017-04-13T13:34:15.849Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_7
-2017-04-13T13:34:15.849Z - info: Old hash calculated: 322a568b90d3d3c1a6297a00fc9d1c8239a22193f99b38500a8d4e9b01db6763[36m[1m[22m[39m
-2017-04-13T13:34:15.849Z - info: New hash calculated: ad973f805787ddc4529722c13ed6cb069bdbfb9970f9a5a3153aedde8abb3b84[31m[1m[22m[39m
-2017-04-13T13:34:15.849Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:15.849Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:15.849Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:16.849Z - info: Added new measure: 1_1_8
-2017-04-13T13:34:16.849Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_8
-2017-04-13T13:34:16.849Z - info: Old hash calculated: ad973f805787ddc4529722c13ed6cb069bdbfb9970f9a5a3153aedde8abb3b84[36m[1m[22m[39m
-2017-04-13T13:34:16.849Z - info: New hash calculated: bc96505df08beaa5ca3bfccb590669f698f929b4845a2740b5400f38ce645407[31m[1m[22m[39m
-2017-04-13T13:34:16.849Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:16.849Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:16.849Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:17.851Z - info: Added new measure: 1_1_9
-2017-04-13T13:34:17.851Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_9
-2017-04-13T13:34:17.851Z - info: Old hash calculated: bc96505df08beaa5ca3bfccb590669f698f929b4845a2740b5400f38ce645407[36m[1m[22m[39m
-2017-04-13T13:34:17.851Z - info: New hash calculated: f1e540d52d1638138525d2dbd18af2240476ae8b6634c95db9d71a2824678900[31m[1m[22m[39m
-2017-04-13T13:34:17.851Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:17.851Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:17.852Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:18.849Z - info: Added new measure: 1_1_10
-2017-04-13T13:34:18.849Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_10
-2017-04-13T13:34:18.850Z - info: Old hash calculated: f1e540d52d1638138525d2dbd18af2240476ae8b6634c95db9d71a2824678900[36m[1m[22m[39m
-2017-04-13T13:34:18.850Z - info: New hash calculated: c080e017cf0e9540aede84faade3e2143d0358e35c9634c17485d78181790b97[31m[1m[22m[39m
-2017-04-13T13:34:18.850Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:18.850Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:18.850Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:19.849Z - info: Added new measure: 1_1_11
-2017-04-13T13:34:19.849Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_11
-2017-04-13T13:34:19.849Z - info: Old hash calculated: c080e017cf0e9540aede84faade3e2143d0358e35c9634c17485d78181790b97[36m[1m[22m[39m
-2017-04-13T13:34:19.849Z - info: New hash calculated: 62690e9de2f379aeaec656b1eaa4a7514db644349fbf606b6cc35bed03d61c19[31m[1m[22m[39m
-2017-04-13T13:34:19.849Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:19.850Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:19.850Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:20.850Z - info: Added new measure: 1_1_12
-2017-04-13T13:34:20.851Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_12
-2017-04-13T13:34:20.851Z - info: Old hash calculated: 62690e9de2f379aeaec656b1eaa4a7514db644349fbf606b6cc35bed03d61c19[36m[1m[22m[39m
-2017-04-13T13:34:20.851Z - info: New hash calculated: e19553fd85db26e6fae4bfa12bc376040cefe8f722495d486b5018e0043279e7[31m[1m[22m[39m
-2017-04-13T13:34:20.852Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:20.852Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:20.852Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:21.850Z - info: Added new measure: 1_1_13
-2017-04-13T13:34:21.850Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_13
-2017-04-13T13:34:21.850Z - info: Old hash calculated: e19553fd85db26e6fae4bfa12bc376040cefe8f722495d486b5018e0043279e7[36m[1m[22m[39m
-2017-04-13T13:34:21.850Z - info: New hash calculated: c9df6f525c59d179f55b7217ab51ca0963b4927cfa329a4318527d3889e696dc[31m[1m[22m[39m
-2017-04-13T13:34:21.850Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:21.850Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:21.851Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:22.849Z - info: Added new measure: 1_1_14
-2017-04-13T13:34:22.850Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_14
-2017-04-13T13:34:22.850Z - info: Old hash calculated: c9df6f525c59d179f55b7217ab51ca0963b4927cfa329a4318527d3889e696dc[36m[1m[22m[39m
-2017-04-13T13:34:22.851Z - info: New hash calculated: dfb079d7814c21fbb63211b97b2a14174886e3e6331098020585673c2629a16e[31m[1m[22m[39m
-2017-04-13T13:34:22.851Z - info: [33m[1mEntering in event notifier....[22m[39m
-2017-04-13T13:34:22.851Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
-2017-04-13T13:34:22.851Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:23.848Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:24.849Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m228[22m[39m
-2017-04-13T13:34:25.852Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:26.850Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:34:27.850Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:28.850Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:29.850Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:30.851Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:31.858Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:32.877Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:33.857Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:34.857Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:35.857Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:36.857Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:37.857Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:38.858Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m228[22m[39m
-2017-04-13T13:34:39.859Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:40.858Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:34:41.858Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:42.858Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:43.858Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:44.860Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:45.866Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:46.869Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:47.873Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:48.874Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:49.875Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:50.879Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:51.887Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:52.874Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m228[22m[39m
-2017-04-13T13:34:53.875Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:54.874Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:34:55.876Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:34:56.875Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:57.875Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:58.875Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:34:59.876Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:00.879Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:01.876Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:02.878Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:03.876Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:04.877Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:05.885Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:06.885Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m227[22m[39m
-2017-04-13T13:35:07.885Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:08.885Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:35:09.885Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:10.885Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:11.885Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:12.885Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:13.885Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:14.886Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:15.886Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:16.886Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m2[22m[39m
-2017-04-13T13:35:17.886Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m5[22m[39m
-2017-04-13T13:35:18.886Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:19.886Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:20.886Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m227[22m[39m
-2017-04-13T13:35:21.886Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:22.886Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:35:23.886Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:24.886Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:25.886Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:26.886Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:27.886Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:28.886Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:29.886Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:30.886Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m2[22m[39m
-2017-04-13T13:35:31.887Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m5[22m[39m
-2017-04-13T13:35:32.887Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:33.887Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:34.887Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m227[22m[39m
-2017-04-13T13:35:35.887Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:36.888Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:35:37.888Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:38.888Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:39.888Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:40.888Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:41.888Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:42.888Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:43.888Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:44.888Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m5[22m[39m
-2017-04-13T13:35:45.888Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m2[22m[39m
-2017-04-13T13:35:46.888Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:47.888Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:48.888Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m227[22m[39m
-2017-04-13T13:35:49.890Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:50.923Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:35:51.924Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:35:52.923Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:53.924Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:54.924Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:55.924Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:56.926Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:57.927Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:35:58.927Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m5[22m[39m
-2017-04-13T13:35:59.927Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m7[22m[39m
-2017-04-13T13:36:00.927Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:01.927Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:02.929Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m227[22m[39m
-2017-04-13T13:36:03.929Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:04.929Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:36:05.929Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:06.929Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:07.929Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:08.929Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:09.930Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:10.929Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:11.929Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:12.930Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m5[22m[39m
-2017-04-13T13:36:13.929Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m12[22m[39m
-2017-04-13T13:36:14.930Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:15.929Z - info: [36mAck [39mAcknowledge[36m reached :-)[39m
-2017-04-13T13:36:16.929Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:36:17.932Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:18.930Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:19.953Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:20.930Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:21.934Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:22.930Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:23.931Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:24.930Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:25.930Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:26.944Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:27.934Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:28.934Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m227[22m[39m
-2017-04-13T13:36:29.934Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:30.934Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:36:31.936Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:32.938Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:33.937Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:34.939Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:35.937Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:36.943Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:37.937Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:38.937Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:39.937Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:40.937Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:41.937Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:42.937Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m228[22m[39m
-2017-04-13T13:36:43.937Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:44.937Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:36:45.937Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:46.939Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:47.937Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:48.937Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:49.939Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:50.938Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:51.938Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:36:52.944Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:53.944Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:54.944Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:55.944Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:56.962Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m228[22m[39m
-2017-04-13T13:36:57.962Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:36:58.966Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:36:59.962Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:37:00.962Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:01.962Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:02.962Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:03.965Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:04.963Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:05.962Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:06.962Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:37:07.962Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:37:08.962Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:37:09.962Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:37:10.963Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m228[22m[39m
-2017-04-13T13:37:11.963Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:37:12.963Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
-2017-04-13T13:37:13.964Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:37:14.969Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:15.965Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:16.965Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:17.966Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:18.968Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:19.976Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:50.443Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:37:51.330Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:52.330Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
-2017-04-13T13:37:53.330Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:37:53.728Z - info: [1m[31m Received server interruption from user [39m[22m
-2017-04-13T13:37:53.728Z - info: [1m[31m shutting down ...[39m[22m
-2017-04-13T13:37:53.729Z - info: [33mDestroying socket server...[39m
-2017-04-13T13:37:53.729Z - info: [33mSocket sever destroyed[39m
-2017-04-13T13:37:54.330Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
-2017-04-13T13:37:54.760Z - info: [1m[31m shutting down completed [39m[22m
+2017-04-26T08:57:48.784Z - info: Event notifier object added to the Address Space
+2017-04-26T08:57:48.785Z - info: [33m[1mSOCKET COMMNICATION (EXECUTOR-->SERVER)  listening on [22m[39m127.0.0.1:7001
+2017-04-26T08:57:55.033Z - info: CONNECTED: 127.0.0.1:56553
+2017-04-26T08:57:56.041Z - info: [33m[1mCreating Object with standard configuration: [22m[39m
+2017-04-26T08:57:56.043Z - info: [31m[1mChange detected :[22m[39mAdded Testation: TestStation1_1
+2017-04-26T08:57:56.045Z - info: Old hash calculated: null[36m[1m[22m[39m
+2017-04-26T08:57:56.046Z - info: New hash calculated: 2d4bf87fed267603a4784c89f26aaaa64dd83a4ed2241815c616d3be94b09443[31m[1m[22m[39m
+2017-04-26T08:57:56.046Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:57:56.046Z - info: [36mAdditionalInfo [39mTestStationAddInfo[36m reached :-)[39m
+2017-04-26T08:57:57.040Z - info: [31m[1mState [22m[39m1502 feeded  with value [36m[1m1[22m[39m
+2017-04-26T08:57:57.041Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T08:57:58.040Z - info: [33m[1mCreating Object with standard configuration: [22m[39m
+2017-04-26T08:57:58.043Z - info: [31m[1mChange detected :[22m[39mAdded Testation: TestStation1_2
+2017-04-26T08:57:58.043Z - info: Old hash calculated: 2d4bf87fed267603a4784c89f26aaaa64dd83a4ed2241815c616d3be94b09443[36m[1m[22m[39m
+2017-04-26T08:57:58.043Z - info: New hash calculated: a58c31d85496452e5d7bfefc9b7789fd35d7122f0bf37689b0f854b67aa4563f[31m[1m[22m[39m
+2017-04-26T08:57:58.043Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:57:58.043Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:57:58.044Z - info: [36mAdditionalInfo [39mTestStationAddInfo[36m reached :-)[39m
+2017-04-26T08:57:59.040Z - info: [31m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
+2017-04-26T08:57:59.041Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T08:58:00.040Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m[22m[39m
+2017-04-26T08:58:00.040Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T08:58:01.040Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m |N| | | |N| |-1| |A| [22m[39m
+2017-04-26T08:58:01.040Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T08:58:02.040Z - info: [33m[1mCreating Object with standard configuration: [22m[39m
+2017-04-26T08:58:02.041Z - info: [31m[1mChange detected :[22m[39mAdded Testation: TestStation2_1
+2017-04-26T08:58:02.041Z - info: Old hash calculated: a58c31d85496452e5d7bfefc9b7789fd35d7122f0bf37689b0f854b67aa4563f[36m[1m[22m[39m
+2017-04-26T08:58:02.041Z - info: New hash calculated: cd75e7e79828eb485f84fc49d903af8c477c541d3a5a44ebde271e5aaa3c3a39[31m[1m[22m[39m
+2017-04-26T08:58:02.042Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:02.042Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:02.042Z - info: [36mAdditionalInfo [39mTestStationAddInfo[36m reached :-)[39m
+2017-04-26T08:58:03.040Z - info: [31m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
+2017-04-26T08:58:03.040Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T08:58:04.040Z - info: [31m[1mState [22m[39m1502 feeded  with value [36m[1m[22m[39m
+2017-04-26T08:58:04.041Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T08:58:05.040Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m[22m[39m
+2017-04-26T08:58:05.040Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T08:58:06.040Z - info: [31m[1mState [22m[39m104 feeded  with value [36m[1m |N| | | |N| |-1| |A| [22m[39m
+2017-04-26T08:58:06.042Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T08:58:07.041Z - info: [33m[1mCreating Object with standard configuration: [22m[39m
+2017-04-26T08:58:07.044Z - info: [31m[1mChange detected :[22m[39mAdded Testation: TestStation2_2
+2017-04-26T08:58:07.044Z - info: Old hash calculated: cd75e7e79828eb485f84fc49d903af8c477c541d3a5a44ebde271e5aaa3c3a39[36m[1m[22m[39m
+2017-04-26T08:58:07.044Z - info: New hash calculated: 5718792e55ac963b913b01f849bbaef9c63f9e3f7e367cbf3b7bd80075bc8d85[31m[1m[22m[39m
+2017-04-26T08:58:07.044Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:07.044Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:07.044Z - info: [36mAdditionalInfo [39mTestStationAddInfo[36m reached :-)[39m
+2017-04-26T08:58:08.041Z - info: [31m[1mState [22m[39m1502 feeded  with value [36m[1m2[22m[39m
+2017-04-26T08:58:08.042Z - info: [36mState [39mState[36m reached :-)[39m
+2017-04-26T08:58:09.042Z - info: Added new measure: 1_1_1
+2017-04-26T08:58:09.042Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_1
+2017-04-26T08:58:09.042Z - info: Old hash calculated: 5718792e55ac963b913b01f849bbaef9c63f9e3f7e367cbf3b7bd80075bc8d85[36m[1m[22m[39m
+2017-04-26T08:58:09.042Z - info: New hash calculated: 9eaa6feea42c2dc5c102f6ee1e84e207b8ab3b09ab7d697ca7242f66bb3eb317[31m[1m[22m[39m
+2017-04-26T08:58:09.042Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:09.043Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:09.043Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:10.041Z - info: Added new measure: 1_1_2
+2017-04-26T08:58:10.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_2
+2017-04-26T08:58:10.041Z - info: Old hash calculated: 9eaa6feea42c2dc5c102f6ee1e84e207b8ab3b09ab7d697ca7242f66bb3eb317[36m[1m[22m[39m
+2017-04-26T08:58:10.041Z - info: New hash calculated: d0545581d3613f2d3b2b93c71aa3d8e1f769e3b48256b53d581f317395380890[31m[1m[22m[39m
+2017-04-26T08:58:10.041Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:10.041Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:10.041Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m230[22m[39m
+2017-04-26T08:58:11.040Z - info: Added new measure: 1_1_3
+2017-04-26T08:58:11.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_3
+2017-04-26T08:58:11.041Z - info: Old hash calculated: d0545581d3613f2d3b2b93c71aa3d8e1f769e3b48256b53d581f317395380890[36m[1m[22m[39m
+2017-04-26T08:58:11.041Z - info: New hash calculated: e880a7247752d7598a45d955b271bd2b98c83c1a6bd24f5e66f94367aae0b675[31m[1m[22m[39m
+2017-04-26T08:58:11.041Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:11.041Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:11.041Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:12.041Z - info: Added new measure: 1_1_4
+2017-04-26T08:58:12.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_4
+2017-04-26T08:58:12.041Z - info: Old hash calculated: e880a7247752d7598a45d955b271bd2b98c83c1a6bd24f5e66f94367aae0b675[36m[1m[22m[39m
+2017-04-26T08:58:12.041Z - info: New hash calculated: ea3f91541dc6ff1ac2e705b961c0cac2806a278014ba4da25995b8ad9056d3fd[31m[1m[22m[39m
+2017-04-26T08:58:12.042Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:12.042Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:12.042Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
+2017-04-26T08:58:13.041Z - info: Added new measure: 1_1_5
+2017-04-26T08:58:13.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_5
+2017-04-26T08:58:13.041Z - info: Old hash calculated: ea3f91541dc6ff1ac2e705b961c0cac2806a278014ba4da25995b8ad9056d3fd[36m[1m[22m[39m
+2017-04-26T08:58:13.042Z - info: New hash calculated: 264e12986e3dbdbbbf440e2c10cbeed5a3a3c4f56598039bb498e395ef4f272e[31m[1m[22m[39m
+2017-04-26T08:58:13.042Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:13.043Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:13.043Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:14.042Z - info: Added new measure: 1_1_6
+2017-04-26T08:58:14.042Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_6
+2017-04-26T08:58:14.042Z - info: Old hash calculated: 264e12986e3dbdbbbf440e2c10cbeed5a3a3c4f56598039bb498e395ef4f272e[36m[1m[22m[39m
+2017-04-26T08:58:14.043Z - info: New hash calculated: 322a568b90d3d3c1a6297a00fc9d1c8239a22193f99b38500a8d4e9b01db6763[31m[1m[22m[39m
+2017-04-26T08:58:14.043Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:14.043Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:14.043Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:15.041Z - info: Added new measure: 1_1_7
+2017-04-26T08:58:15.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_7
+2017-04-26T08:58:15.041Z - info: Old hash calculated: 322a568b90d3d3c1a6297a00fc9d1c8239a22193f99b38500a8d4e9b01db6763[36m[1m[22m[39m
+2017-04-26T08:58:15.041Z - info: New hash calculated: ad973f805787ddc4529722c13ed6cb069bdbfb9970f9a5a3153aedde8abb3b84[31m[1m[22m[39m
+2017-04-26T08:58:15.041Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:15.041Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:15.042Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:16.041Z - info: Added new measure: 1_1_8
+2017-04-26T08:58:16.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_8
+2017-04-26T08:58:16.041Z - info: Old hash calculated: ad973f805787ddc4529722c13ed6cb069bdbfb9970f9a5a3153aedde8abb3b84[36m[1m[22m[39m
+2017-04-26T08:58:16.041Z - info: New hash calculated: bc96505df08beaa5ca3bfccb590669f698f929b4845a2740b5400f38ce645407[31m[1m[22m[39m
+2017-04-26T08:58:16.041Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:16.041Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:16.042Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:17.041Z - info: Added new measure: 1_1_9
+2017-04-26T08:58:17.042Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_9
+2017-04-26T08:58:17.042Z - info: Old hash calculated: bc96505df08beaa5ca3bfccb590669f698f929b4845a2740b5400f38ce645407[36m[1m[22m[39m
+2017-04-26T08:58:17.042Z - info: New hash calculated: f1e540d52d1638138525d2dbd18af2240476ae8b6634c95db9d71a2824678900[31m[1m[22m[39m
+2017-04-26T08:58:17.043Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:17.043Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:17.043Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:18.041Z - info: Added new measure: 1_1_10
+2017-04-26T08:58:18.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_10
+2017-04-26T08:58:18.041Z - info: Old hash calculated: f1e540d52d1638138525d2dbd18af2240476ae8b6634c95db9d71a2824678900[36m[1m[22m[39m
+2017-04-26T08:58:18.042Z - info: New hash calculated: c080e017cf0e9540aede84faade3e2143d0358e35c9634c17485d78181790b97[31m[1m[22m[39m
+2017-04-26T08:58:18.042Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:18.042Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:18.042Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:19.040Z - info: Added new measure: 1_1_11
+2017-04-26T08:58:19.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_11
+2017-04-26T08:58:19.041Z - info: Old hash calculated: c080e017cf0e9540aede84faade3e2143d0358e35c9634c17485d78181790b97[36m[1m[22m[39m
+2017-04-26T08:58:19.041Z - info: New hash calculated: 62690e9de2f379aeaec656b1eaa4a7514db644349fbf606b6cc35bed03d61c19[31m[1m[22m[39m
+2017-04-26T08:58:19.041Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:19.041Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:19.041Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:20.041Z - info: Added new measure: 1_1_12
+2017-04-26T08:58:20.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_12
+2017-04-26T08:58:20.042Z - info: Old hash calculated: 62690e9de2f379aeaec656b1eaa4a7514db644349fbf606b6cc35bed03d61c19[36m[1m[22m[39m
+2017-04-26T08:58:20.042Z - info: New hash calculated: e19553fd85db26e6fae4bfa12bc376040cefe8f722495d486b5018e0043279e7[31m[1m[22m[39m
+2017-04-26T08:58:20.042Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:20.043Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:20.043Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m2[22m[39m
+2017-04-26T08:58:21.041Z - info: Added new measure: 1_1_13
+2017-04-26T08:58:21.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_13
+2017-04-26T08:58:21.041Z - info: Old hash calculated: e19553fd85db26e6fae4bfa12bc376040cefe8f722495d486b5018e0043279e7[36m[1m[22m[39m
+2017-04-26T08:58:21.041Z - info: New hash calculated: c9df6f525c59d179f55b7217ab51ca0963b4927cfa329a4318527d3889e696dc[31m[1m[22m[39m
+2017-04-26T08:58:21.041Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:21.042Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:21.042Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:22.040Z - info: Added new measure: 1_1_14
+2017-04-26T08:58:22.041Z - info: [31m[1mChange detected :[22m[39mAdded measure 1_1_14
+2017-04-26T08:58:22.041Z - info: Old hash calculated: c9df6f525c59d179f55b7217ab51ca0963b4927cfa329a4318527d3889e696dc[36m[1m[22m[39m
+2017-04-26T08:58:22.041Z - info: New hash calculated: dfb079d7814c21fbb63211b97b2a14174886e3e6331098020585673c2629a16e[31m[1m[22m[39m
+2017-04-26T08:58:22.041Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:58:22.041Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:58:22.043Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:23.040Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:24.040Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m230[22m[39m
+2017-04-26T08:58:25.040Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:26.040Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
+2017-04-26T08:58:27.040Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:28.040Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:29.040Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:30.040Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:31.040Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:32.041Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:33.040Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:34.040Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m5[22m[39m
+2017-04-26T08:58:35.040Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:36.040Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:37.040Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:38.040Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m230[22m[39m
+2017-04-26T08:58:39.050Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:40.040Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
+2017-04-26T08:58:41.040Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:42.040Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:43.040Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:44.040Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:45.040Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:46.040Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:47.067Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:48.040Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m2[22m[39m
+2017-04-26T08:58:49.040Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:50.040Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:51.040Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:52.042Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m230[22m[39m
+2017-04-26T08:58:53.040Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:54.040Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
+2017-04-26T08:58:55.040Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:58:56.040Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:57.040Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:58.040Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:58:59.040Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:00.040Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:01.041Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:02.041Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m2[22m[39m
+2017-04-26T08:59:03.041Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:04.041Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:05.041Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:06.041Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m230[22m[39m
+2017-04-26T08:59:07.041Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:08.041Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
+2017-04-26T08:59:09.041Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:10.041Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:11.041Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:12.041Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:13.041Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:14.041Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:15.041Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:16.041Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:17.041Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:18.041Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:19.041Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:20.041Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m230[22m[39m
+2017-04-26T08:59:21.041Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:22.041Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
+2017-04-26T08:59:23.041Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:24.041Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:25.041Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:26.041Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:27.041Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:28.041Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:29.041Z - info: [31m[1mMeasure [22m[39m1_1_12 feeded  with value [36m[1m2[22m[39m
+2017-04-26T08:59:30.041Z - info: [31m[1mMeasure [22m[39m1_1_13 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:31.041Z - info: [31m[1mMeasure [22m[39m1_1_14 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:32.041Z - info: [31m[1mMeasure [22m[39m1_1_1 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:33.041Z - info: [31m[1mMeasure [22m[39m1_1_2 feeded  with value [36m[1m230[22m[39m
+2017-04-26T08:59:34.041Z - info: [31m[1mMeasure [22m[39m1_1_3 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:35.041Z - info: [31m[1mMeasure [22m[39m1_1_4 feeded  with value [36m[1m100[22m[39m
+2017-04-26T08:59:36.041Z - info: [31m[1mMeasure [22m[39m1_1_5 feeded  with value [36m[1m0[22m[39m
+2017-04-26T08:59:37.041Z - info: [31m[1mMeasure [22m[39m1_1_6 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:38.041Z - info: [31m[1mMeasure [22m[39m1_1_7 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:39.041Z - info: [31m[1mMeasure [22m[39m1_1_8 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:40.041Z - info: [31m[1mMeasure [22m[39m1_1_9 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:41.041Z - info: [31m[1mMeasure [22m[39m1_1_10 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:42.041Z - info: [31m[1mMeasure [22m[39m1_1_11 feeded  with value [36m[1m32767[22m[39m
+2017-04-26T08:59:42.422Z - error: Error removing Address Space: TypeError: Cannot read property 'nodeId' of undefined
+2017-04-26T08:59:42.423Z - info: TERMINATE event reached
+2017-04-26T08:59:42.423Z - info: [33m[1mEntering in event notifier....[22m[39m
+2017-04-26T08:59:42.423Z - info: [36mEventNotifierHash [39mEventNotifierHash[36m reached :-)[39m
+2017-04-26T08:59:53.319Z - info: [1m[31m Received server interruption from user [39m[22m
+2017-04-26T08:59:53.319Z - info: [1m[31m shutting down ...[39m[22m
+2017-04-26T08:59:53.320Z - info: [33mDestroying socket server...[39m
+2017-04-26T08:59:53.320Z - info: [33mSocket sever destroyed[39m
+2017-04-26T08:59:54.338Z - info: [1m[31m shutting down completed [39m[22m

@@ -1,4 +1,4 @@
 .vscode/*
 .node_modules/*
-.result.log
-.opcua-server.log
+result.log
+opcua-server.log
