@@ -1,5 +1,5 @@
 var config = {
-  host: '127.0.0.1', // 159.155.84.136'
+  host: '127.0.0.1',
     // portR: 6969,
   port: 7001,
   enableServiceDiscovery: false,
