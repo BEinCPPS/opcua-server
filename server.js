@@ -136,6 +136,11 @@ server.on('post_initialize', function () {
     }
   })
 })
+function terminateAddressSpace () {
+  addressSpaceManager.removeAllTestStations()
+  addressSpaceNotifier.sendCloseEvent()
+  executorMessageManager.feedEventNotifierHash()
+}
 function connectServerSocket () {
     // Create a server instance, and chain the listen function to it
     // The function passed to net.createServer() becomes the event handler for the 'connection' event
@@ -158,9 +163,7 @@ function connectServerSocket () {
             // Add a 'close' event handler to this instance of socket
       sock.on('close', function (data) {
         console.log('CLOSED: ' + sock.remoteAddress + ' ' + sock.remotePort)
-        addressSpaceManager.removeAllTestStations()
-        addressSpaceNotifier.sendCloseEvent()
-        executorMessageManager.feedEventNotifierHash()
+        terminateAddressSpace()
       })
     })
     socketServer.listen(portSocket, config.host)

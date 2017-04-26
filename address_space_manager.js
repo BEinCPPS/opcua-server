@@ -297,7 +297,7 @@ var AddressSpaceManager = (function () {
       buildAddressSpace()
       testStationInstanceMap.clear()
     } catch (error) {
-      logger.error('Error removing Address Space: ' + error.bold.red)
+      logger.error('Error removing Address Space: '.red.bold, error)
     }
 
   /*  var keys = testStationInstanceMap.keys()
