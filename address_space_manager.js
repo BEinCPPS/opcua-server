@@ -295,6 +295,7 @@ var AddressSpaceManager = (function () {
         browseName: 'TestStationFolder'
       })
       buildAddressSpace()
+      measureMap.clear()
       testStationInstanceMap.clear()
     } catch (error) {
       logger.error('Error removing Address Space: '.red.bold, error)
