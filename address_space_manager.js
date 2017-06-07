@@ -13,6 +13,7 @@ var AddressSpaceManager = (function () {
   var addressSpace = null
   var mySpace = null
   var testStationInstanceMap = new HashMap()
+  var testStationValueInstanceMap = new HashMap()
   var currentTestStationInstance = {}
   var testGenericType = null
 
@@ -38,12 +39,12 @@ var AddressSpaceManager = (function () {
     addTypes() // TODO Understand if needed
         // addMeasures();
         // addStates();
-    buildState()
+   /* buildState()
     buildAcknowledge()
     buildTestStationAddInfo()
 
     buildSerialNumber()
-    build12NC()
+    build12NC() */
   }
 
   var addTypes = function () {
@@ -134,7 +135,7 @@ var AddressSpaceManager = (function () {
     var propertyDataValue = createVariableDataValue()
     var property = createProperty(state.properties[0].name, propertyDataValue) // WARNING !!!!
     referenceNodeToVariables(variable, [property])
-    stateObj = {
+    return {
       variable: variable,
       value: dataValue,
       description: state.description,
@@ -156,7 +157,7 @@ var AddressSpaceManager = (function () {
       properties.push(property)
       propertyDataValues.push(propertyDataValue)
     }
-    testStationAddInfoObj = {
+    return {
       variable: variable,
       value: dataValue,
       description: info.description,
@@ -169,7 +170,7 @@ var AddressSpaceManager = (function () {
     var ack = config.addressSpaceAcknowledge
     var dataValue = createVariableDataValue()
     var variable = createVariable(ack, dataValue, '')
-    acknowledgeObj = {
+    return {
       variable: variable,
       value: dataValue,
       description: ack.description
@@ -179,7 +180,7 @@ var AddressSpaceManager = (function () {
     var sn = config.addressSpaceSerialNumber
     var dataValue = createVariableDataValue()
     var variable = createVariable(sn, dataValue, '')
-    serialNumberObj = {
+    return {
       variable: variable,
       value: dataValue,
       description: sn.description
@@ -189,7 +190,7 @@ var AddressSpaceManager = (function () {
     var nc12 = config.addressSpace12NC
     var dataValue = createVariableDataValue()
     var variable = createVariable(nc12, dataValue, '')
-    _12NCObj = {
+    return {
       variable: variable,
       value: dataValue,
       description: nc12.description
@@ -214,6 +215,22 @@ var AddressSpaceManager = (function () {
     logger.info('Creating Object with standard configuration: '.bold.yellow)
     var testStationToCreateObj = testStationInstanceMap.get(createInstanceIdentifier(idMachine, idBox))
     if (testStationToCreateObj) return testStationToCreateObj
+
+    var stateObject = buildState()
+    var acknowledgeObject = buildAcknowledge()
+    var testStationAddInfoObject = buildTestStationAddInfo()
+    var serialNumberObject = buildSerialNumber()
+    var _12NCObject = build12NC()
+
+    var testStationInstanceValue = {
+      state: stateObject,
+      acknowledge: acknowledgeObject,
+      testStationAddInfo: testStationAddInfoObject,
+      serialNumber: serialNumberObject,
+      _12NC: _12NCObject
+    }
+    testStationValueInstanceMap.set(createInstanceIdentifier(idMachine, idBox), testStationInstanceValue)
+
     var testStationInstance = addressSpace.addObject({
       organizedBy: addressSpace.rootFolder.objects, // TODO MySpaceFolder
       browseName: 'TestStation' + createInstanceIdentifier(idMachine, idBox), // TODO Name concat product configuration
@@ -221,12 +238,13 @@ var AddressSpaceManager = (function () {
     })
     referenceNodeToVariables(mySpace, [testStationInstance])
 
-    referenceNodeToVariables(testStationInstance, [stateObj.variable])
-    referenceNodeToVariables(testStationInstance, [acknowledgeObj.variable])
-    referenceNodeToVariables(testStationInstance, [testStationAddInfoObj.variable])
-    referenceNodeToVariables(testStationInstance, [serialNumberObj.variable])
-    referenceNodeToVariables(testStationInstance, [_12NCObj.variable])
+    referenceNodeToVariables(testStationInstance, [stateObject.variable])
+    referenceNodeToVariables(testStationInstance, [acknowledgeObject.variable])
+    referenceNodeToVariables(testStationInstance, [testStationAddInfoObject.variable])
+    referenceNodeToVariables(testStationInstance, [serialNumberObject.variable])
+    referenceNodeToVariables(testStationInstance, [_12NCObject.variable])
     testStationInstanceMap.set(createInstanceIdentifier(idMachine, idBox), testStationInstance)
+
         // DEMO only remove
     addressSpaceNotifier.notifyChange(addressSpace, 'Added Testation: ' + testStationInstance.browseName)
     currentTestStationInstance = testStationInstance
@@ -281,6 +299,7 @@ var AddressSpaceManager = (function () {
       addressSpace.deleteNode(testStationObject)
       logger.info('Removing TestStation' + identifier + '.........'.yellow)
       testStationInstanceMap.remove(identifier)
+      testStationValueInstanceMap.remove(identifier)
     } catch (error) {
       logger.error('Error encountered in removing a node', error)
     }
@@ -297,6 +316,7 @@ var AddressSpaceManager = (function () {
       buildAddressSpace()
       measureMap.clear()
       testStationInstanceMap.clear()
+      testStationValueInstanceMap.clear()
     } catch (error) {
       logger.error('Error removing Address Space: '.red.bold, error)
     }
@@ -314,6 +334,11 @@ var AddressSpaceManager = (function () {
   var getTestStationInstance = function (idMachine, idBox) {
     var testStationInstance = testStationInstanceMap.get(createInstanceIdentifier(idMachine, idBox)) || null
     return testStationInstance
+  }
+
+  var getTestStationValueInstance = function (idMachine, idBox) {
+    var testStationValueInstance = testStationValueInstanceMap.get(createInstanceIdentifier(idMachine, idBox)) || null
+    return testStationValueInstance
   }
 
   var createInstanceIdentifier = function (idMachine, idBox) {
@@ -377,6 +402,7 @@ var AddressSpaceManager = (function () {
     addressSpace = null
     mySpace = null
     testStationInstanceMap = new HashMap()
+    testStationValueInstanceMap = new HashMap()
     measureMap = new HashMap()
     typeMap = new HashMap()
     stateObj = {}
@@ -433,6 +459,7 @@ var AddressSpaceManager = (function () {
     getSerialNumberObj: getSerialNumberObj,
     get12NCObj: get12NCObj,
     getTestStationAddInfoObj: getTestStationAddInfoObj,
+    getTestStationValueInstance: getTestStationValueInstance,
     getTypeMap: getTypeMap,
     getEventNotifierHash: getEventNotifierHash,
     addMeasure: addMeasure,

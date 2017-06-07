@@ -12,18 +12,20 @@ var ExecutorMessageManager = (function () {
   var messageArray = null
   var messageTypeMap = new HashMap()
   var isConnected = false
-    // var buttonsMap = new HashMap();
-    // TODO Bastera solo uno o una mappa
+  // var buttonsMap = new HashMap();
+  // TODO Bastera solo uno o una mappa
   var testStationObject = null
-  var idMachine = null
-  var idBox = null
+  // var idMachine = null
+  // var idBox = null
   // var idMeasureConfiguration = null
   // var serialNumber = null
   // var _12NC = null
 
   function convertStringToDate (value) {
-    if (!value) { return }
-        // console.log('inside convertStringToDate with the following input string: ' + value);
+    if (!value) {
+      return
+    }
+    // console.log('inside convertStringToDate with the following input string: ' + value);
     value = replaceLineBreak(value)
     var millisecs = null
     if (value.length > 14) {
@@ -31,11 +33,13 @@ var ExecutorMessageManager = (function () {
       value = value.substring(0, value.length - 3)
     }
     var date = new Date(value.replace(
-            /^(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)$/,
-            '$4:$5:$6 $2/$3/$1'
-        ))
+      /^(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)(\d\d)$/,
+      '$4:$5:$6 $2/$3/$1'
+    ))
 
-    if (millisecs) { date.setMilliseconds(millisecs) }
+    if (millisecs) {
+      date.setMilliseconds(millisecs)
+    }
     return date
   }
 
@@ -83,15 +87,17 @@ var ExecutorMessageManager = (function () {
 
   var connectSocket = function () {
     console.log('Socket Connecting....'.bold.cyan)
-    idMachine = Number(messageArray[0])
-    idBox = Number(messageArray[1])
+    var idMachine = Number(messageArray[0])
+    var idBox = Number(messageArray[1])
     var ipAddress = messageArray[3]
     var description = messageArray[4]
-        // TODO Capire come fare con Preda a gestire le configurazioni
-        // idMeasureConfiguration = extractMeasureConfiguration(messageArray[5]);
-    if (!idMachine || !idBox) { return }
+    // TODO Capire come fare con Preda a gestire le configurazioni
+    // idMeasureConfiguration = extractMeasureConfiguration(messageArray[5]);
+    if (!idMachine || !idBox) {
+      return
+    }
     testStationObject = addressSpaceManager
-        .addTestStationInstance(idMachine, idBox)
+      .addTestStationInstance(idMachine, idBox)
     feedEventNotifierHash()
     if (testStationObject) {
       isConnected = true
@@ -100,38 +106,42 @@ var ExecutorMessageManager = (function () {
   }
 
   var closeSocket = function () {
-        // TODO
-        // addressSpaceManager.removeTestStationInstance(idMachine, idBox);
+    // TODO
+    // addressSpaceManager.removeTestStationInstance(idMachine, idBox);
     isConnected = false
-    idMachine = null
-    idBox = null
+    // idMachine = null
+    // idBox = null
     // feedAdditionalInfoActive('false')
   }
 
-  var feedSerialNumber = function (serialNumber_) {
+  var feedSerialNumber = function (idMachine, idBox, serialNumber_) {
     if (typeof serialNumber_ !== 'undefined' && serialNumber_ != null && serialNumber_) {
+      var serialNumberObj = addressSpaceManager.getTestStationValueInstance(idMachine, idBox).serialNumber
       var dataValue = null
-      if (addressSpaceManager.getSerialNumberObj()) {
-        dataValue = addressSpaceManager.getSerialNumberObj().value
+      if (serialNumberObj) {
+        // dataValue = addressSpaceManager.getSerialNumberObj().value
+        dataValue = serialNumberObj.value
         var retVal = setStringToMeasure('serialNuber', dataValue, serialNumber_)
         if (retVal) {
           setTimestampToMeasure('serialNumber', dataValue, new Date())
-          logger.info('SerialNumber '.cyan + addressSpaceManager.getSerialNumberObj().description + ' reached :-)'.cyan)
+          logger.info('SerialNumber '.cyan + serialNumberObj.description + ' reached :-)'.cyan)
           logger.debug('ok->TestStation_' + idMachine + '_' + idBox + 'serialNumber', serialNumber_, 'result')
         }
       }
     }
   }
 
-  var feed12NC = function (_12NC_) {
+  var feed12NC = function (idMachine, idBox, _12NC_) {
     if (typeof _12NC_ !== 'undefined' && _12NC_ != null && _12NC_) {
+      var _12NCObj = addressSpaceManager.getTestStationValueInstance(idMachine, idBox)._12NC
       var dataValue = null
-      if (addressSpaceManager.get12NCObj()) {
-        dataValue = addressSpaceManager.get12NCObj().value
+      if (_12NCObj) {
+        // dataValue = addressSpaceManager.get12NCObj().value
+        dataValue = _12NCObj.value
         var retVal = setStringToMeasure('12NC', dataValue, _12NC_)
         if (retVal) {
           setTimestampToMeasure('12NC', dataValue, new Date())
-          logger.info('12NC '.cyan + addressSpaceManager.get12NCObj().description + ' reached :-)'.cyan)
+          logger.info('12NC '.cyan + _12NCObj.description + ' reached :-)'.cyan)
           logger.debug('ok->TestStation_' + idMachine + '_' + idBox + '_12NC', _12NC_, 'result')
         }
       }
@@ -144,13 +154,15 @@ var ExecutorMessageManager = (function () {
       var idBoxVal = messageArray[1]
       var measureId = Number(messageArray[3])
       var haveToNotifyEvent = addressSpaceManager.addMeasure(idMachineVal, idBoxVal, measureId)
-      if (haveToNotifyEvent) { feedEventNotifierHash() }
+      if (haveToNotifyEvent) {
+        feedEventNotifierHash()
+      }
       var measureIdentifier = addressSpaceManager.createMeasureIdentifier(idMachineVal, idBoxVal, measureId)
       var measureObj = addressSpaceManager.getMeasureMap().get(measureIdentifier)
       var dataValue = measureObj.value
       var retVal = setNumberToMeasure(measureId, dataValue, messageArray[4])
       logger.info('Measure '.bold.yellow + measureIdentifier + ' feeded  with value ' + messageArray[4].bold.cyan)
-      logger.debug('ok->teststation:TestStation_' + idMachine + '_' + idBox + '_measure' + measureId, messageArray[4], 'result')
+      logger.debug('ok->teststation:TestStation_' + idMachineVal + '_' + idBoxVal + '_measure' + measureId, messageArray[4], 'result')
       if (retVal) {
         setTimestampToMeasure(measureId, dataValue, messageArray[5])
       }
@@ -160,22 +172,28 @@ var ExecutorMessageManager = (function () {
   }
   var feedAutomaState = function () {
     try {
+      var idMachine = messageArray[0]
+      var idBox = messageArray[1]
       var stateId = Number(messageArray[3])
       var dataValue = null
-      if (addressSpaceManager.getStateObj()) {
-        dataValue = addressSpaceManager.getStateObj().value
+      // if (addressSpaceManager.getStateObj()) {
+      // dataValue = addressSpaceManager.getStateObj().value
+      var stateObj = addressSpaceManager.getTestStationValueInstance(idMachine, idBox).state
+      if (stateObj) {
+        dataValue = stateObj.value
         var retVal = setStringToMeasure(stateId, dataValue, stateId)
         logger.info('State '.bold.yellow + stateId + ' feeded  with value ' + messageArray[4].bold.cyan)
         logger.debug('ok->TestStation_' + idMachine + '_' + idBox + '_state', messageArray[3], 'result')
-                // Set payload in INNER  property for State
-        setStringToMeasure(stateId, addressSpaceManager.getStateObj().propertyValues[0], messageArray[4])
+        // Set payload in INNER  property for State
+        // setStringToMeasure(stateId, addressSpaceManager.getStateObj().propertyValues[0], messageArray[4])
+        setStringToMeasure(stateId, stateObj.propertyValues[0], messageArray[4])
         logger.debug('ok->TestStation_' + idMachine + '_' + idBox + '_statePayload', messageArray[4], 'result')
 
         if (retVal) {
           setTimestampToMeasure(stateId, dataValue, messageArray[5])
-          logger.info('State '.cyan + addressSpaceManager.getStateObj().description + ' reached :-)'.cyan)
+          logger.info('State '.cyan + stateObj.description + ' reached :-)'.cyan)
         }
-                // Extract serial Number and Payload
+        // Extract serial Number and Payload
         if (stateId === 300) {
           var payload = messageArray[4] + ''
           if (payload) {
@@ -184,8 +202,8 @@ var ExecutorMessageManager = (function () {
             var _12nc = payloadArray[3]
             // serialNumber = serialNumber_
             // _12NC = _12nc
-            feedSerialNumber(serialNumber_)
-            feed12NC(_12nc)
+            feedSerialNumber(idMachine, idBox, serialNumber_)
+            feed12NC(idMachine, idBox, _12nc)
             logger.debug('ok->TestStation_' + idMachine + '_' + idBox + '_serialNumber', serialNumber_, 'result')
             logger.debug('ok->TestStation_' + idMachine + '_' + idBox + '_12NC', _12nc, 'result')
           }
@@ -198,10 +216,14 @@ var ExecutorMessageManager = (function () {
 
   var feedAcknowledge = function () {
     try {
+      var idMachine = messageArray[0]
+      var idBox = messageArray[1]
       var ackId = Number(messageArray[3])
       var dataValue = null
-      if (addressSpaceManager.getAcknowledgeObj()) {
-        dataValue = addressSpaceManager.getAcknowledgeObj().value
+      var acknowledgeObj = addressSpaceManager.getTestStationValueInstance(idMachine, idBox).acknowledge
+      if (acknowledgeObj) {
+        // dataValue = addressSpaceManager.getAcknowledgeObj().value
+        dataValue = acknowledgeObj.value
         var retVal = setNumberToMeasure(ackId, dataValue, messageArray[3])
         if (retVal) {
           setTimestampToMeasure(ackId, dataValue, messageArray[4])
@@ -215,16 +237,20 @@ var ExecutorMessageManager = (function () {
   }
   var feedAdditionalInfo = function (ipAddress, description) {
     try {
+      var idMachine = messageArray[0]
+      var idBox = messageArray[1]
       var dataValue = null
-      if (addressSpaceManager.getTestStationAddInfoObj()) {
-        dataValue = addressSpaceManager.getTestStationAddInfoObj().value
+      var testAdditionalInfoObj = addressSpaceManager.getTestStationValueInstance(idMachine, idBox).testStationAddInfo
+      if (testAdditionalInfoObj) {
+        // dataValue = addressSpaceManager.getTestStationAddInfoObj().value
+        dataValue = testAdditionalInfoObj.value
         var retVal = setStringToMeasure('', dataValue, description)
-                // Set ipAddress in INNER  property for State
-        setStringToMeasure('', addressSpaceManager.getTestStationAddInfoObj().propertyValues[0], ipAddress)
-                // feedAdditionalInfoActive('true'); //TODO
+        // Set ipAddress in INNER  property for State
+        setStringToMeasure('', testAdditionalInfoObj.propertyValues[0], ipAddress)
+        // feedAdditionalInfoActive('true'); //TODO
         if (retVal) {
           setTimestampToMeasure('info', dataValue, messageArray[5])
-          logger.info('AdditionalInfo '.cyan + addressSpaceManager.getTestStationAddInfoObj().description + ' reached :-)'.cyan)
+          logger.info('AdditionalInfo '.cyan + testAdditionalInfoObj.description + ' reached :-)'.cyan)
         }
       }
     } catch (error) {
@@ -255,7 +281,9 @@ var ExecutorMessageManager = (function () {
   var setNumberToMeasure = function (idVariable, variableValue, value) {
     var retVal = false
     if (!isConnected) return retVal
-    if (typeof value === 'undefined') { variableValue.value = -1 } else {
+    if (typeof value === 'undefined') {
+      variableValue.value = -1
+    } else {
       variableValue.value = {
         dataType: DataType.Int32,
         value: value
@@ -269,7 +297,7 @@ var ExecutorMessageManager = (function () {
     var retVal = false
     if (!isConnected) return retVal
     if (typeof value === 'undefined' || value == null || value === '') {
-            // Se non ho dei dati accessori metto ON per segnalare l'arrivo dello stato
+      // Se non ho dei dati accessori metto ON per segnalare l'arrivo dello stato
       variableValue.value = {
         dataType: DataType.String,
         value: 'NULL'
@@ -287,7 +315,11 @@ var ExecutorMessageManager = (function () {
 
   var setTimestampToMeasure = function (idVariable, variableValue, timestamp) {
     if (!isConnected) return
-    if (typeof timestamp === 'undefined' || timestamp == null) { variableValue.sourceTimestamp = new Date() } else { variableValue.sourceTimestamp = convertStringToDate(timestamp) }
+    if (typeof timestamp === 'undefined' || timestamp == null) {
+      variableValue.sourceTimestamp = new Date()
+    } else {
+      variableValue.sourceTimestamp = convertStringToDate(timestamp)
+    }
   }
 
   var buildMessageTypeMap = function () {
@@ -312,13 +344,13 @@ var ExecutorMessageManager = (function () {
     addressSpaceNotifier = null
   }
 
-    // Costructor
+  // Costructor
   var ExecutorMessageManager = function () {
     reset()
   }
 
   ExecutorMessageManager.prototype = {
-        // constructor
+    // constructor
     constructor: ExecutorMessageManager,
     extractData: extractData,
     // buildData: buildData,
