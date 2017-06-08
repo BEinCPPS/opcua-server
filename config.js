@@ -1,5 +1,5 @@
 var config = {
-  host: '127.0.0.1',
+  host: '127.0.0.1', // Socket communication
   // '127.0.0.1',
     // portR: 6969,
   port: 7001,
