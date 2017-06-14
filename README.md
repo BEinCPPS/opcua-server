@@ -1,7 +1,7 @@
 opcua-server
 ==========
 
-an implementation of a OPC UA server fully written in javascript and nodejs using [Node-opcua](http://node-opcua.github.io/) a full OPC-UA stack written in NodeJS.
+an implementation of a OPC UA server fully written in javascript and nodejs using [Node-opcua](http://node-opcua.github.io/) a full OPC-UA stack written in NodeJS for Zero HQ Test experimentation.
 
 Getting started
 ================
