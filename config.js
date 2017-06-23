@@ -3,6 +3,7 @@ var config = {
   // '127.0.0.1',
     // portR: 6969,
   port: 7001,
+  stationPrefix: 'TestStation',
   enableServiceDiscovery: false,
   executorDataSeparator: '@',
   executorSubDataSeparator: '|',

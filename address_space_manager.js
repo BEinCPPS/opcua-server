@@ -233,7 +233,7 @@ var AddressSpaceManager = (function () {
 
     var testStationInstance = addressSpace.addObject({
       organizedBy: addressSpace.rootFolder.objects, // TODO MySpaceFolder
-      browseName: 'TestStation' + createInstanceIdentifier(idMachine, idBox), // TODO Name concat product configuration
+      browseName: config.stationPrefix + createInstanceIdentifier(idMachine, idBox), // TODO Name concat product configuration
       typeDefinition: testGenericType.nodeId
     })
     referenceNodeToVariables(mySpace, [testStationInstance])

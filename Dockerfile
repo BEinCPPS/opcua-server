@@ -1,4 +1,5 @@
 FROM node:boron
+MAINTAINER Antonio Scatoloni (antonio.scatoloni@eng.it)
 
 # Create app directory
 RUN mkdir -p /usr/src/app
