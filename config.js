@@ -4,6 +4,7 @@ var config = {
     // portR: 6969,
   port: 7001,
   stationPrefix: 'TestStation',
+  stationPrefixSeparator: '_',
   enableServiceDiscovery: false,
   executorDataSeparator: '@',
   executorSubDataSeparator: '|',

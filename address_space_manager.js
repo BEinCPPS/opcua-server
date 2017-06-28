@@ -27,7 +27,7 @@ var AddressSpaceManager = (function () {
   var eventNotifierHashObj = {}
   var serialNumberObj = {}
   var _12NCObj = {}
-    // var stateMap = new HashMap();
+  // var stateMap = new HashMap();
   var methodMap = new HashMap()
 
   var defaultValue = null
@@ -37,14 +37,14 @@ var AddressSpaceManager = (function () {
 
   var buildAddressSpace = function () {
     addTypes() // TODO Understand if needed
-        // addMeasures();
-        // addStates();
-   /* buildState()
-    buildAcknowledge()
-    buildTestStationAddInfo()
+    // addMeasures();
+    // addStates();
+    /* buildState()
+     buildAcknowledge()
+     buildTestStationAddInfo()
 
-    buildSerialNumber()
-    build12NC() */
+     buildSerialNumber()
+     build12NC() */
   }
 
   var addTypes = function () {
@@ -63,15 +63,15 @@ var AddressSpaceManager = (function () {
       })
     }
   }
-    // TODO Creare in modo dinamico una sottovariabile per gestire il payload degli stati
-    // e l'indirizzo IP delle info
+  // TODO Creare in modo dinamico una sottovariabile per gestire il payload degli stati
+  // e l'indirizzo IP delle info
   var createVariable = function (object, dataValue, namePrefix) {
     var variableObj = {
       browseName: namePrefix + object.name,
       dataType: 'BaseDataType',
       typeDefinition: typeMap.get(object.type)
-                ? typeMap.get(object.type).nodeId : typeMap.get('GenericMeasurementType').nodeId,
-            // modellingRule: "Optional"
+        ? typeMap.get(object.type).nodeId : typeMap.get('GenericMeasurementType').nodeId,
+      // modellingRule: "Optional"
       value: {
         timestamped_get: function () {
           return dataValue
@@ -125,7 +125,7 @@ var AddressSpaceManager = (function () {
 
     logger.info('Added new measure: ' + measureIdentifier)
     return addressSpaceNotifier.notifyChange(addressSpace,
-            'Added measure ' + measureIdentifier)
+      'Added measure ' + measureIdentifier)
   }
 
   var buildState = function () {
@@ -210,7 +210,7 @@ var AddressSpaceManager = (function () {
       logger.error('Error encountered referencing variable to node: ' + error)
     }
   }
-     // TODO Linking TestStation instances to ObjectsFolder
+  // TODO Linking TestStation instances to ObjectsFolder
   var addTestStationInstance = function (idMachine, idBox) {
     logger.info('Creating Object with standard configuration: '.bold.yellow)
     var testStationToCreateObj = testStationInstanceMap.get(createInstanceIdentifier(idMachine, idBox))
@@ -245,7 +245,7 @@ var AddressSpaceManager = (function () {
     referenceNodeToVariables(testStationInstance, [_12NCObject.variable])
     testStationInstanceMap.set(createInstanceIdentifier(idMachine, idBox), testStationInstance)
 
-        // DEMO only remove
+    // DEMO only remove
     addressSpaceNotifier.notifyChange(addressSpace, 'Added Testation: ' + testStationInstance.browseName)
     currentTestStationInstance = testStationInstance
     return testStationInstance
@@ -276,20 +276,20 @@ var AddressSpaceManager = (function () {
     }
   }
 
- /*
-  var removeReferencesToNode = function (identifier) {
-    try {
-      var references = mySpace.getComponents()
-      for (var i in references) {
-        if (references[i].browseName.toString() === 'TestStation' + identifier) {
-          addressSpace.deleteNode(references[i])
-        }
-      }
-    } catch (error) {
-      logger.error('Error encountered in removing a node', error)
-    }
-  } */
-       // WARNING Unused at the moment
+  /*
+   var removeReferencesToNode = function (identifier) {
+     try {
+       var references = mySpace.getComponents()
+       for (var i in references) {
+         if (references[i].browseName.toString() === 'TestStation' + identifier) {
+           addressSpace.deleteNode(references[i])
+         }
+       }
+     } catch (error) {
+       logger.error('Error encountered in removing a node', error)
+     }
+   } */
+  // WARNING Unused at the moment
   var removeTestStationInstance = function (identifier) {
     // var identifier = createInstanceIdentifier(idMachine, idBox)
     var testStationObject = testStationInstanceMap.get(identifier)
@@ -321,14 +321,14 @@ var AddressSpaceManager = (function () {
       logger.error('Error removing Address Space: '.red.bold, error)
     }
 
-  /*  var keys = testStationInstanceMap.keys()
-    for (var i in keys) {
-      var identifier = keys[i]
-      removeTestStationInstance(identifier)
-    }
-    // Delete the folder after deleting all nodes
-    */
-   // addressSpaceNotifier.sendCloseEvent()
+    /*  var keys = testStationInstanceMap.keys()
+      for (var i in keys) {
+        var identifier = keys[i]
+        removeTestStationInstance(identifier)
+      }
+      // Delete the folder after deleting all nodes
+      */
+    // addressSpaceNotifier.sendCloseEvent()
   }
 
   var getTestStationInstance = function (idMachine, idBox) {
@@ -342,7 +342,7 @@ var AddressSpaceManager = (function () {
   }
 
   var createInstanceIdentifier = function (idMachine, idBox) {
-    return idMachine + '_' + idBox
+    return idMachine + config.stationPrefixSeparator + idBox
   }
 
   var createMeasureIdentifier = function (idMachine, idBox, measureId) {
@@ -422,29 +422,29 @@ var AddressSpaceManager = (function () {
     addressSpace = serverEngine.addressSpace
     var rootFolder = addressSpace.findNode('RootFolder')
     assert(rootFolder.browseName.toString() === 'Root')
-        /* var view = addressSpace.addView({
-            organizedBy: rootFolder.views,
-            browseName: "MySpaceView"
-        }); */
+    /* var view = addressSpace.addView({
+        organizedBy: rootFolder.views,
+        browseName: "MySpaceView"
+    }); */
     mySpace = addressSpace.addFolder(rootFolder.objects, {
       nodeId: 'ns=1;s=main_folder',
       browseName: 'TestStationFolder'
     })
     buildAddressSpace()
     addEventNotifierInstance()
-        /* view.addReference({
-              referenceType: "Organizes",
-              nodeId: node.nodeId
-          });
-         */
+    /* view.addReference({
+          referenceType: "Organizes",
+          nodeId: node.nodeId
+      });
+     */
   }
-    // Costructor
+  // Costructor
   var AddressSpaceManager = function () {
     reset()
   }
 
   AddressSpaceManager.prototype = {
-        // constructor
+    // constructor
     constructor: AddressSpaceManager,
     addTestStationInstance: addTestStationInstance,
     removeTestStationInstance: removeTestStationInstance,
