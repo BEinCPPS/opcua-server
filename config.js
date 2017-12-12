@@ -1,8 +1,8 @@
 var config = {
-  host: '127.0.0.1', // Socket communication
+  host:  process.env.SERVER_HOST || '127.0.0.1', // Socket communication
   // '127.0.0.1',
     // portR: 6969,
-  port: 7001,
+  port: process.env.SOCKET_PORT || 7001,
   stationPrefix: 'TestStation',
   stationPrefixSeparator: '_',
   enableServiceDiscovery: false,
