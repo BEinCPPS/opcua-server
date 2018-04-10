@@ -3,6 +3,7 @@ var config = {
   // '127.0.0.1',
     // portR: 6969,
   port: process.env.SOCKET_PORT || 7001,
+  logLevel: process.env.LOG_LEVEL || 'info',
   stationPrefix: 'TestStation',
   stationPrefixSeparator: '_',
   enableServiceDiscovery: false,
@@ -106,11 +107,12 @@ var config = {
     name: '12NC',
     description: '12NC',
     type: '12NCType'
-  },
+  }
+  /*,
   logging: {
     fileName: 'opcua-server.log',
     logLevel: 'info'
-  }
+  }*/
 
 }
 module.exports = config

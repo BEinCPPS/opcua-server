@@ -4,13 +4,13 @@ var config = require('./config')
 
 winston.loggers.add('information', {
   console: {
-    level: 'info',
+    level: config.logLevel,
     colorize: true
   },
   file: {
     json: false,
     filename: config.logging.fileName,
-    level: 'info'
+    level: config.logLevel
   }
 })
 winston.loggers.add('result', {
@@ -18,7 +18,7 @@ winston.loggers.add('result', {
     timestamp: false,
     json: false,
     filename: 'result.log',
-    level: 'debug'
+    level: config.logLevel
   }
 })
 
