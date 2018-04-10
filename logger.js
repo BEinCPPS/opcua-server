@@ -18,7 +18,7 @@ winston.loggers.add('result', {
     timestamp: false,
     json: false,
     filename: 'result.log',
-    level: config.logLevel
+    level: config.logging.logLevel
   }
 })
 
